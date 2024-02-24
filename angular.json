@@ -11,9 +11,9 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular ad-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docsgi",
+            "outputPath": "dist/angular-quiz",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
