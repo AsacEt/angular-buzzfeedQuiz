@@ -1,0 +1,34 @@
+<div class="quiz__container">
+  <audio id="bg-music" autoplay loop>
+    <source src="assets/audio/kissMe.mp3" type="audio/mp3">
+    Seu navegador não suporta o elemento de áudio.
+  </audio>
+
+  <button (click)="toggleMusic()" id="musicButton" class="btn-play">🎶</button>
+
+  <div class="quiz__logo">
+    <img src="assets/imgs/logo.png" width="40%" alt="">
+    <h3>{{title}}</h3>
+  </div>
+
+  <div *ngIf=!finished class="quiz__questions">
+    <h3>{{questionSelected.question}}</h3>
+  </div>
+
+  <div *ngIf=!finished class="quiz__options">
+    <button
+      *ngFor="let option of questionSelected.options; let i = index"
+      (click)="playerChoice(option.alias)"
+      class="btn-option"
+    >
+      {{option.name}}
+    </button>
+  </div>
+
+  <div *ngIf=finished class="quiz__results">
+    <h1>Seu resultado é:</h1>
+    <h2>{{ fastAnswerSelected }}</h2>
+    <p>{{ answerSelected }}</p>
+    <button (click)="reloadPage()" class="reload-button">Refazer o Quiz</button>
+  </div>
+</div>

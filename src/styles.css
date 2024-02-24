@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+body {
+  /* background-color: #1F1147; */
+  background-image: url('assets/imgs/background.png');
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa */
+}
