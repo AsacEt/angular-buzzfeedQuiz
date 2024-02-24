@@ -3,7 +3,7 @@
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## 💻 Sobre este projeto
-Você é daqueles que joga pra lua ou prefere ritmos lentos? Que tipo de dançarino você seria? [Descubra agora!](link).
+Você é daqueles que joga pra lua ou prefere ritmos lentos? Que tipo de dançarino você seria? [Descubra agora!](https://dancequiz.netlify.app).
 
 Este projeto foi elaborado como componente para a finalização do bootcamp "Front-end com Angular" pela plataforma DIO, tendo sido baseado no BuzzFeed e em seus famosos quizzes com os mais variados assuntos. 
 
