@@ -1,0 +1,93 @@
+{
+  "title":"Que tipo de dançarino você seria?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Se você estivesse em uma festa, qual seria o tipo de som que te faria levantar?",
+      "options": [
+        {"id": 1, "name":"Uma batida contagiante de funk ou música eletrônica.", "alias":"A"},
+        {"id": 2, "name":"Algo com uma pegada latina, como reggaeton ou merengue.", "alias":"B"},
+        {"id": 3, "name":"Uma música clássica com um ritmo tranquilo, como jazz ou blues.", "alias":"C"},
+        {"id": 4, "name":"Uma batida pesada de hip-hop ou rap.", "alias":"D"},
+        {"id": 5, "name":"Algo romântico e suave, como um bolero ou slow dance.", "alias":"E"},
+        {"id": 6, "name":"Festas existem apenas por um motivo: comida grátis", "alias":"F"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual estilo e acessório(s) de dança você preferiria usar para se destacar na pista?",
+      "options": [
+        {"id": 1, "name":"Um vestido, com uma blusa amarrada e o cabelo solto de prancha mostrar meu estilo descolado.", "alias":"A"},
+        {"id": 2, "name":"Lenço ou xale para adicionar movimento aos meus passos leves", "alias":"B"},
+        {"id": 3, "name":"Meias ou leggings para garantir flexibilidade nos movimentos", "alias":"C"},
+        {"id": 4, "name":"Gorro ou bandana para dar aquele toque urbano aos meus movimentos de dança de rua", "alias":"D"},
+        {"id": 5, "name":"Sapatos elegantes para deslizar suavemente pelos seus passos com o meu parceiro(a).", "alias":"E"},
+        {"id": 6, "name":"Dançar? Quanto menos eu me destacar, melhor", "alias":"F"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual seria o seu movimento de assinatura na pista de dança?",
+      "options": [
+        {"id": 1, "name":"O quadradinho, é claro! Ninguém pode resistir a um bom passo cultural.", "alias":"A"},
+        {"id": 2, "name":"A belly dance, com certeza. Nada fala mais que uma cintura flexivel", "alias":"B"},
+        {"id": 3, "name":"Um gracioso arabesque, para mostrar minha elegância e técnica nos clássicos.", "alias":"C"},
+        {"id": 4, "name":"Um headspin ou um freeze, para deixar todos de boca aberta com habilidades de breakdance.", "alias":"D"},
+        {"id": 5, "name":"Um sensual dip seguido por um arrastar de pé ao estilo Tango, mostrando paixão e conexão com meu parceiro(a).", "alias":"E"},
+        {"id": 6, "name":"O globalmente conhecido passinho do bate-bate. Bateria em qualquer um que tentasse me fazer dançar", "alias":"F"}
+    ]
+    },
+    {
+      "id":4,
+      "question": "O que te faria querer dançar até o amanhecer?",
+      "options": [
+        {"id": 1, "name":"Uma batida contagiosa que nos faz mexer sem parar.", "alias":"A"},
+        {"id": 2, "name":"A energia contagiante das músicas latinas que nos fazem sorrir e esquecer o tempo", "alias":"B"},
+        {"id": 3, "name":"A beleza da música clássica que nos transporta para outro mundo.", "alias":"C"},
+        {"id": 4, "name":"A liberdade de expressão que o flow proporciona.", "alias":"D"},
+        {"id": 5, "name":"A intensidade e a paixão no ar, que nos fazem sentirmos vivos.", "alias":"E"},
+        {"id": 6, "name":"Para eu dançar, só tomando um choque mesmo!", "alias":"F"}
+    ]
+    },
+    {
+      "id":5,
+      "question": "Qual seria o seu lema de dança?",
+      "options": [
+        {"id": 1, "name":"\"Jogo pra lua! Vivo cada batida como se fosse a última!\"", "alias":"A"},
+        {"id": 2, "name":"\"Danço bem pois danço como se ninguém estivesse me observando!\"", "alias":"B"},
+        {"id": 3, "name":"\"A elegância está nos detalhes.\"", "alias":"C"},
+        {"id": 4, "name":"\"Quebro com força e com talento\"", "alias":"D"},
+        {"id": 5, "name":"\"Só deixo a música guiar meus passos, o resto é confete!\"", "alias":"E"},
+        {"id": 6, "name":"\"Ao menor sinal de música, me escondo!\"", "alias":"F"}
+    ]
+    },
+    {
+      "id":6,
+      "question": "Qual destas músicas seria perfeita para você mostrar seus dotes no salão?",
+      "options": [
+        {"id": 1, "name":"\"Medicina - Anitta 💁‍♀️\"", "alias":"A"},
+        {"id": 2, "name":"\"Hips Don't Lie - Shakira 💃\"", "alias":"B"},
+        {"id": 3, "name":"\"Somewhere Only We Know - Keane 😌\"", "alias":"C"},
+        {"id": 4, "name":"\"Watch me - Silentó 😎\"", "alias":"D"},
+        {"id": 5, "name":"\"Kiss me - Sixpence None the Richer 🥰 \"", "alias":"E"},
+        {"id": 6, "name":"Perfeito seria se esse quiz acabasse logo 🥺", "alias":"F"}
+    ]
+    }
+  ],
+  "resultsTitle": {
+    "A": "Dono(a) do batidão",
+    "B": "Estiloso(a) e sensual",
+    "C": "Bailarino(a) emocionante",
+    "D": "Acrobata desinibido(a)",
+    "E": "Casado(a) com a dança (e com mais alguém?)",
+    "F": "O que precisa urgentemente começar a dançar"
+  },
+  "resultsDesc":{
+    "A": "Você é um dançarino cheio de energia e atitude! Seu estilo descontraído e sua capacidade de seguir o ritmo contagiante da música fazem você se destacar na pista de dança.",
+    "B": "Você é um amante da vida e da diversão! Seus movimentos sensuais e enérgicos cativam todos ao seu redor enquanto você dança ao som de músicas latinas.",
+    "C": "Você é elegante e sofisticado! Sua graça natural e sua capacidade de contar histórias através do movimento impressionam quem tem a sorte de te ver dançar.",
+    "D": "Você é ousado e corajoso! Suas habilidades acrobáticas e sua atitude confiante fazem você se destacar na pista de dança com seus movimentos radicais.",
+    "E": "Você é apaixonado(a) e romântico(a)! Sua intensidade emocional e sua conexão profunda com a música e seu parceiro(a) tornam seus passos verdadeiramente memoráveis.",
+    "F": "Mesmo que você não goste de dançar ainda, sempre é bom experimentar coisas novas. A dança pode ser uma forma divertida de se expressar e se conectar com os outros. Dance, porque você é livre!"
+  }
+}
